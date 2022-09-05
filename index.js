@@ -8,7 +8,9 @@ const dotenv = require("dotenv");
 const authorRouter = require("./routes/author");
 const bookRouter = require("./routes/book");
 
+//use .env
 dotenv.config();
+
 //connect database
 mongoose.connect(process.env.MONGODB_URL, () => {
   console.log("Conected to MongoDB");

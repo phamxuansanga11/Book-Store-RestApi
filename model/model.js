@@ -22,6 +22,18 @@ const bookSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  thumnail: {
+    type: String,
+    required: true,
+  },
+  decription: {
+    type: String,
+    required: true,
+  },
+  price: {
+    type: String,
+    required: true,
+  },
   publishedDate: {
     type: String,
   },
